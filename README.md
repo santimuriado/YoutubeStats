@@ -25,8 +25,8 @@ Should work with Go version 1.13 +.
 
 + Set the Env variables:
 
-      export YOUTUBE_KEY="key"
-      export CHANNEL_ID="channelId"
+      export YOUTUBE_KEY="API_KEY"
+      export CHANNEL_ID="CHANNEL_ID"
 
 + Run the server:
 
