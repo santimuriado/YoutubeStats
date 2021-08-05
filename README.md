@@ -17,19 +17,19 @@ Should work with Go version 1.13 +.
 
 + Clone the repo:
 
-    git clone https://github.com/santimuriado/YoutubeStats.git
+      git clone https://github.com/santimuriado/YoutubeStats.git
 
 + Generate the go.sum with:
 
-    go mod tidy
+      go mod tidy
 
 + Set the Env variables:
 
-    export YOUTUBE_KEY="key"
-    export CHANNEL_ID="channelId"
+      export YOUTUBE_KEY="key"
+      export CHANNEL_ID="channelId"
 
 + Run the server:
 
-    go run main.go
+      go run main.go
 
 + To see the stats open index.html.
