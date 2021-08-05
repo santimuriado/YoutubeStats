@@ -5,11 +5,11 @@ import (
 	"log"
 	"net/http"
 
-	websocket "github.com/santimuriado/YoutubeSubs/WebSocket"
+	websocket "github.com/santimuriado/YoutubeStats/WebSocket"
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Youtube Subscription Number")
+	fmt.Fprintf(w, "Youtube Stats")
 }
 
 func stats(w http.ResponseWriter, r *http.Request) {
@@ -33,6 +33,6 @@ func setupRoutes() {
 
 func main() {
 
-	fmt.Println("Youtube Subscriptions")
+	fmt.Println("Youtube Channel Stats")
 	setupRoutes()
 }

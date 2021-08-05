@@ -1,4 +1,4 @@
-module github.com/santimuriado/YoutubeSubs
+module github.com/santimuriado/YoutubeStats
 
 go 1.16
 
